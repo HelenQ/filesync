@@ -1,4 +1,4 @@
-module gitlab.xinc818.com/qinjinyang/filesync
+module github.com/HelenQ/filesync
 
 go 1.21.6
 

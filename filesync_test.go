@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"gitlab.xinc818.com/qinjinyang/filesync"
-	config "gitlab.xinc818.com/qinjinyang/filesync/config/oss"
+	"github.com/HelenQ/filesync"
+	config "github.com/HelenQ/filesync/config/oss"
 )
 
 func TestSyncLocal2Oss(t *testing.T) {

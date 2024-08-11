@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
+	config "github.com/HelenQ/filesync/config/oss"
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
-	config "gitlab.xinc818.com/qinjinyang/filesync/config/oss"
 )
 
 func SyncLocal2Oss(ossSync config.OssSync, localPath string, remotePath string) error {
