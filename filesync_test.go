@@ -16,5 +16,7 @@ func TestSyncLocal2Oss(t *testing.T) {
 		BucketName:      "hy-cloudreve",
 	}
 	err := filesync.SyncLocal2Oss(ossSync, "/Users/qinjinyang/Downloads/es", "es")
-	fmt.Println(err)
+	if err != nil {
+		t.Error(err)
+	}
 }
